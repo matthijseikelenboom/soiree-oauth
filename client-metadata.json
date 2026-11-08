@@ -1,0 +1,12 @@
+{
+  "client_id": "https://matthijseikelenboom.github.io/soiree-oauth/client-metadata.json",
+  "client_name": "Soirée",
+  "client_uri": "https://matthijseikelenboom.github.io/soiree-oauth/",
+  "application_type": "native",
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "redirect_uris": ["io.github.matthijseikelenboom:/callback"],
+  "scope": "atproto transition:generic",
+  "token_endpoint_auth_method": "none",
+  "dpop_bound_access_tokens": true
+}
